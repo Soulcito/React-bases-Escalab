@@ -14,12 +14,12 @@ import 'firebase/auth';
 // SDK config, esto se debe cambiar por la config personal/ se debe crear cuenta en firebase
 
 const config = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyAyKVXxgvyUJ4WwM0nwl2Ni9m_sCsSk95M",
+  authDomain: "react-escalab-1b799.firebaseapp.com",
+  projectId: "react-escalab-1b799",
+  storageBucket: "react-escalab-1b799.appspot.com",
+  messagingSenderId: "845008951160",
+  appId: "1:845008951160:web:73de12b0e1ed5b6b32da8d"
 };
 
 // Initialize Firebase
