@@ -6,7 +6,6 @@ import './index.css';
 import App from './App';
 
 // Pattern Design HOC: BrowserRouter
-
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>

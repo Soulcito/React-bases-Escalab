@@ -33,7 +33,7 @@ class App extends React.Component {
           this.setState({
             currentUser: {
               id: snapShot.id,
-              ...snapShot
+              ...snapShot.data()
             }
           });
 
@@ -55,6 +55,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+          {/* Pattern design: Render Props */}
           <Header currentUser={this.state.currentUser}/>
           <Switch>
             <Route exact path='/' component={HomePage}/>
