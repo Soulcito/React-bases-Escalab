@@ -29,6 +29,7 @@ class SignIn extends React.Component {
     });
   };
 
+  // design pattern: controlled input
   render() {
     return (
       <div className="sign-in">
